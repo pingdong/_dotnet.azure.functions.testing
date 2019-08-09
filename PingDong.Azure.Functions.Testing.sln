@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9CFE4E65-1D4E-4446-A210-21FEE06F4C5A}") = "PingDong.Azure.Functions.Testing", "src\Azure.Functions.Testing\Azure.Functions.Testing.csproj", "{BD45741D-6C7D-49AC-99B0-C191060FDEE4}"
+EndProject
+Project("{0EFCE43D-26EC-46CA-A1E7-4AEE26E839C3}") = "PingDong.Azure.Functions.Testing.UnitTests", "src\Azure.Functions.Testing.UnitTests\Azure.Functions.Testing.UnitTests.csproj", "{AC4EDB6A-6F4B-4919-BAB8-CBEC702443EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD45741D-6C7D-49AC-99B0-C191060FDEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD45741D-6C7D-49AC-99B0-C191060FDEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD45741D-6C7D-49AC-99B0-C191060FDEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD45741D-6C7D-49AC-99B0-C191060FDEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4EDB6A-6F4B-4919-BAB8-CBEC702443EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4EDB6A-6F4B-4919-BAB8-CBEC702443EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4EDB6A-6F4B-4919-BAB8-CBEC702443EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4EDB6A-6F4B-4919-BAB8-CBEC702443EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B67E07C5-AE13-4142-853B-4434D0E99907}
+	EndGlobalSection
+EndGlobal
